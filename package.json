@@ -1,0 +1,35 @@
+{
+  "name": "food-space",
+  "version": "1.0.0",
+  "description": "Food Delivery Application using React and Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saloni1500/React-Food-Space.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Saloni Kodam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saloni1500/React-Food-Space/issues"
+  },
+  "homepage": "https://github.com/Saloni1500/React-Food-Space#readme",
+  "devDependencies": {
+    "parcel": "^2.13.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
