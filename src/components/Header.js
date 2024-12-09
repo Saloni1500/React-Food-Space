@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+
   return (
     <div className="flex justify-between shadow-lg sticky top-0 z-50 bg-white">
       <div className="h-50">
@@ -43,7 +43,7 @@ const Header = () => {
           </li>
           <li className="px-6 text-xl font-poppins py-1">
             <Link to="/cart" style={mystyle}>
-              Cart({cartItems.length} items)
+              Cart ({cartItems.length} items)
             </Link>
           </li>
           <button

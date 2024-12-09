@@ -3,6 +3,7 @@ import RatingSVG from "./RatingSVG";
 const RestaurantCard = (props) => {
   const { resData } = props;
 
+  //console.log(resData);
   const { cloudinaryImageId, name, avgRating, cuisines, areaName } =
     resData?.info;
 
