@@ -14,7 +14,11 @@ const ItemList = ({ items }) => {
           item.card.info;
 
         return (
-          <div key={item.card.info.id} className="border-b border-gray-300">
+          <div
+            data-testid="foodItems"
+            key={item.card.info.id}
+            className="border-b border-gray-300"
+          >
             <div className="menu-card-container flex items-start space-x-2 my-8">
               <div className="txt-on-left flex-1">
                 <div className=" font-xl font-poppins text-gray-700 font-extrabold">

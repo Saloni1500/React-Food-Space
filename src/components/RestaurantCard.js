@@ -9,7 +9,10 @@ const RestaurantCard = (props) => {
 
   const { slaString } = resData?.info?.sla;
   return (
-    <div className="m-4 p-2 w-[250px] h-[385px] bg-gray-100 hover:scale-95">
+    <div
+      data-testid="resCard"
+      className="m-4 p-2 w-[250px] h-[385px] bg-gray-100 hover:scale-95"
+    >
       <img
         className=""
         alt="resto-img"

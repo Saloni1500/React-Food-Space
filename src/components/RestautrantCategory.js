@@ -1,6 +1,5 @@
 import { SlArrowDown } from "react-icons/sl";
 import ItemList from "./ItemList";
-import { useState } from "react";
 const RestaurantCategory = ({ data, showItems, setshowIndex }) => {
   const handleClick = () => {
     setshowIndex();

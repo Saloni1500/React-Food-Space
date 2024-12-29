@@ -22,6 +22,7 @@ const Body = () => {
             type="text"
             className="p-4 border border-solid border-gray-300 w-72 rounded-tl-2xl rounded-bl-2xl h-10 font-roboto ml-9"
             placeholder=" Search for restaurant and food"
+            data-testid="searchInput"
             value={SearchText}
             onChange={(e) => {
               setSearchText(e.target.value);
@@ -57,7 +58,7 @@ const Body = () => {
               setFilteredRestaurant(filteredList);
             }}
           >
-            Top Rated Restaurant
+            Top Rated Restaurants
           </button>
         </div>
       </div>
